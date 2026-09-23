@@ -2,26 +2,84 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: montserrat, sans-serif;
+}
+
+body{
+    margin-top: 20px;
+    background-color: #f5f5f5;
 }
 
 h1{
     text-align: center;
     margin: 30px;
-    color: #333;
+    color: #444;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);    
 }
 
-.task-form {
+.contenedor{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    border:1px solid black;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff
+}  
+
+#task-form{
     display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
     padding:0 20px;
+    gap: 15px;
 }
 
 li{
     padding: 20px;
     font-size: 18px;
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
 }
 
+
+li button{
+    margin-left: 30px;
+    background-color: #ff4d4d;
+    padding: 5px 10px;
+    color:#fafafa;
+    border-radius:5px;
+}
+
+form button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
 input{
-    padding: 10px
+    padding: 10px 20px;
+    flex: 1;
+    font-size: 18px;
+}
+
+.completada{
+    text-decoration: line-through;
+    color: #888;
+}
+
+.btn-eliminar {
+    background-color: #ff4d4d;
+    width: 80px;
+}
+
+/*MEDIA QUERIES */
+@media screen and (max-width:480px){
+    #task-form{
+        flex-direction: column;
+        gap: 10px;
+    }
 }
