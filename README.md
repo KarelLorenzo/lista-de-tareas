@@ -1,5 +1,8 @@
 # Lista de Tareas
 
+🔗 [Ver demo en vivo](https://karellorenzo.github.io/lista-de-tareas/)
+
+
 Aplicación de lista de tareas (to-do list) hecha con HTML, CSS y JavaScript puro, sin librerías ni frameworks — como práctica de fundamentos de JavaScript.
 
 ## Funcionalidades
@@ -37,7 +40,7 @@ Aplicación de lista de tareas (to-do list) hecha con HTML, CSS y JavaScript pur
 Clona el repositorio y abre `index.html` en tu navegador.
 
 \`\`\`bash
-git clone <url-de-este-repositorio>
+git clone https://github.com/KarelLorenzo/lista-de-tareas.git
 \`\`\`
 
 ## Estado del proyecto
